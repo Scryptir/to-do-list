@@ -1,0 +1,80 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* COLORS */
+/* Light Blue: #9fd1f4 */
+/* Green: #17d333 */
+/* Red: #d82228 */
+
+@font-face {
+    font-family: Screamitloud;
+    src: url(../fonts/Screamitloud.ttf);
+}
+
+@font-face {
+    font-family: BodoniflfRoman;
+    src: url(../fonts/BodoniflfRoman.ttf);
+}
+
+body {
+    background-color: #9fd1f4;
+}
+
+h1 {
+    font-family: Screamitloud;
+    font-size: 3.5rem;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: Screamitloud;
+    font-size: 2rem;
+}
+
+input {
+    width: 30rem;
+    padding: 0.5rem;
+    font-family: BodoniflfRoman;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+
+button {
+    font-family: Screamitloud;
+    border-radius: 5px;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+}
+
+#input-section {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.green-text {
+    color: #17d333;
+}
+
+.red-text {
+    color: #d82228;
+}
+
+.underline {
+    text-decoration: underline;
+}
