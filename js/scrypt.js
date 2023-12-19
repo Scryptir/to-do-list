@@ -5,3 +5,16 @@ if (userName === '' || userName === null){ // Gives a value of 'Your' if the use
 } else {
     document.getElementById('user-name').innerHTML = userName + '\'s';
 }
+
+function addTaskToList () {
+    let newTask = document.getElementById('user-task').value;
+
+    let taskList = document.getElementById('task-list');
+    let newLi = document.createElement('li');
+
+    newLi.appendChild(document.createTextNode(newTask + '<button class="delete-button">x</button>'));
+
+    taskList.appendChild(newLi);
+}
+
+document.getElementById('submit-button').addEventListener('click', addTaskToList);

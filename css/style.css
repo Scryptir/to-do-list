@@ -78,3 +78,19 @@ button {
 .underline {
     text-decoration: underline;
 }
+
+#task-list {
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: lightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    width: 100%;
+}
